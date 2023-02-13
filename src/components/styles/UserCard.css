@@ -1,0 +1,73 @@
+.userCard {
+    font-family: Arial;
+    font-size:18px;
+    margin: 30px;
+    display: inline-block;
+    border: 2px solid rgb(1, 27, 53);
+    padding: 12px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    background: rgb(84, 144, 204);
+}
+
+
+.userCard_title {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.userCard_list {
+    background: rgb(1, 34, 66);
+    padding: 10px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.userCard_list li span {
+    font-weight: bold;
+    font-style: normal;
+    font-size:15px;
+
+}
+
+.userCard_item {
+    padding: 10px;
+    color: white;
+}
+
+.userCard_footer {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.userCard_btn {
+    background-color: rgb(245, 60, 252);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+
+
+.userCard_btn:hover {
+    background-color: rgb(178, 19, 184);
+
+
+
+}
