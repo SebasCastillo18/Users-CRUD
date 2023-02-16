@@ -4,18 +4,19 @@
     padding: 15px;
     align-items: center;
     gap: 10px;
-    background: rgb(59, 111, 255);
-    margin: 5px 20px;
+    background: #fe9393;
+
 }
 
 .navbar_title {
+    font-family: var(--principal-font);
     font-size: 24px;
     margin: 0;
     color: white;
 }
 
 .navbar_btn {
-    background-color: #567899;
+    background-color: #df8686;
     color: white;
     border: none;
     border-radius: 5px;
@@ -33,5 +34,5 @@
 }
 
 .navbar_btn:hover {
-    background: #3a93ec;
+    background: #fd6b6b;
 }

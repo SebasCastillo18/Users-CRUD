@@ -1,10 +1,9 @@
 .userCard {
-    font-family: Arial;
     font-size:18px;
     margin: 30px;
     display: inline-block;
     border: 2px solid rgb(1, 27, 53);
-    padding: 12px;
+    padding: 20px;
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -14,12 +13,17 @@
 }
 
 
+
 .userCard_title {
     text-align: center;
     color: rgb(255, 255, 255);
 }
 
 .userCard_list {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
     background: rgb(1, 34, 66);
     padding: 10px;
     border-radius: 12px;
